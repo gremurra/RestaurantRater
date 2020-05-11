@@ -5,11 +5,10 @@ using System.Data.Entity;       //Think of Entity as the models that get stored 
 using System.Linq;
 using System.Web;
 
-namespace RestaurantRater.Models
+namespace RestaurantRater.Models        //Model: a class that will be passed between controllers and views
 {
     public class Restaurant
     {
-        //[Key]
         public int RestaurantId { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
